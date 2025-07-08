@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 1rem;
+  margin: 0;
+}
+
+#book-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.book {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 0.5rem;
+  }
+}
